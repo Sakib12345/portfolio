@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+}
+.header{
+    padding-left: 67%;
+    padding-top: 2%;
+    margin-bottom: 100px;
+}
+.top-section{
+    height: 700px;
+    padding-bottom: 250px;
+}
+.about-section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+.link-button{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-right:35px;
+}
+.linked-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(130deg, #1cc3e0, #1a42c5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.half-section{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.half-section img{
+    width: 80%;
+}
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 80px;
+    margin: 0;
+}
+h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 60px;
+    margin: 0;
+}
+h3{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+h4{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(112, 48, 3);
+    margin: 0;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.lastest-working{
+    padding-top: 10%;
+    color: rgba(0, 29, 61, 0.877);
+
+}
+.half-section p{
+    color: dimgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.hello{
+    color: rgba(0, 29, 61, 0.877);
+}
+.salmon-color{
+    color: salmon;
+}
+.latest-project{
+    background-color: whitesmoke;
+    height: 1000px;
+}
+
+.one-third-box-one{
+    box-shadow: 5px 5px 40px rgb(226, 226, 226);
+    border-radius: 20px;
+    height: 50%;
+    background-color: white;
+    float: left;
+    width: 26%;
+    margin-left: 8%;
+}
+
+.one-third-box-two{
+    box-shadow: 5px 5px 40px rgb(226, 226, 226);
+    border-radius: 20px;
+    height: 50%;
+    background-color: white;
+    float: left;
+    width: 26%;
+    margin-left: 3%;
+}
+
+.one-third-box-three{
+    box-shadow: 5px 5px 20px rgb(207, 207, 207);
+    border-radius: 25px;
+    height: 50%;
+    background-color: white;
+    float: left;
+    width: 26%;
+    margin-left: 3%;
+}
+
+.box-image{
+    width: 90%;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.box-paragraph{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(58, 58, 58);
+    margin: 0;
+    margin-left: 5%;
+}
