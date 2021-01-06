@@ -14,6 +14,9 @@ body{
     height: 500px;
     padding-bottom: 200px;
 }
+.about-section h2{
+    color: rgba(0, 29, 61, 0.877);
+}
 .link-button{
     text-decoration: none;
     color: rgb(73, 73, 73);
@@ -26,7 +29,7 @@ body{
     text-decoration: none;
     color: white;
     font-weight: 700;
-    background-image: linear-gradient(130deg, #1cc3e0, #1a42c5);
+    background-image: linear-gradient(130deg, #f0c713, #eb920d);
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -52,7 +55,6 @@ h2{
 h3{
     font-family: 'Fjalla One', sans-serif;
     font-size: 50px;
-    text-align: center;
 }
 h4{
     font-size: 30px;
@@ -65,7 +67,7 @@ h4{
 .lastest-working{
     padding-top: 10%;
     color: rgba(0, 29, 61, 0.877);
-
+    text-align: center;
 }
 .half-section p{
     color: dimgray;
@@ -141,6 +143,9 @@ h4{
 .skills h3{
     padding-top: 4%;
     color: rgba(0, 29, 61, 0.877);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    text-align: center;
 }
 .skills-box-model-left{
     height: auto;
@@ -183,4 +188,37 @@ h4{
 h4{
     background-position: right;
     display: inline-block;
+}
+.work-inquiry-section{
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.inquiry-div{
+    background-image: url("images/work_inquiry.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 10px solid green; */
+    width: 50%;
+    height: 200px;
+    margin-left: 28%;
+}
+.under-inquiry-div{
+    padding-top: 7%;
+    padding-left: 5%;
+}
+.chat-button{
+    margin-left: 15%;
+    margin-top: 10px;
+    position: absolute;
+}
+.inquiry-div h3{
+    font-size: 50px;
+    margin: 0;
+    color: white;
+    display: inline-block;
+}
+.stay-connected{
+    color: dimgray;
+    font-size: 20px;
 }
