@@ -81,6 +81,7 @@ h4{
 .latest-project{
     background-color: whitesmoke;
     height: 1000px;
+    margin-bottom: 100px;
 }
 
 .one-third-box-one{
@@ -125,4 +126,61 @@ h4{
     color: rgb(58, 58, 58);
     margin: 0;
     margin-left: 5%;
+}
+
+.half-section-for-skills{
+    width: 40%;
+    float: left;
+    margin-left: 6.5%;
+}
+.skills{
+    background-color: whitesmoke;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.skills h3{
+    padding-top: 4%;
+    color: rgba(0, 29, 61, 0.877);
+}
+.skills-box-model-left{
+    height: auto;
+    width: 100%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    float: right;
+    text-align: right;
+}
+.skills-box-model-left h4{
+    font-size: 30px;
+    color: rgb(253, 90, 72);
+    font-family: 'Crete Round', serif;
+    font-weight: 600;
+    padding-right: 40px;
+    padding-left: 80px;
+}
+.skills-box-model-right{
+    height: auto;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 5%;
+    }
+.skills-box-model-right h4{
+    font-size: 30px;
+    color: rgb(253, 90, 72);
+    font-family: 'Crete Round', serif;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.icons-color{
+    color: rgba(14, 39, 87, 0.815);
+}
+.icon-size{
+    width:30px;
+}
+h4{
+    background-position: right;
+    display: inline-block;
 }
